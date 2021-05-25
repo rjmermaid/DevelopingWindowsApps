@@ -1,0 +1,16 @@
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\Ch05Ex03.exe
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\Ch05Ex03.deps.json
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\Ch05Ex03.runtimeconfig.json
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\Ch05Ex03.runtimeconfig.dev.json
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\Ch05Ex03.dll
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\ref\Ch05Ex03.dll
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\bin\Debug\net5.0\Ch05Ex03.pdb
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.AssemblyInfoInputs.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.AssemblyInfo.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.dll
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\ref\Ch05Ex03.dll
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.pdb
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter05\Ch05Ex03\Ch05Ex03\obj\Debug\net5.0\Ch05Ex03.genruntimeconfig.cache
