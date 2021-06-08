@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AboutWindow/1.0.0": {
+        "dependencies": {
+          "Ch13CardLib": "1.0.0"
+        },
+        "runtime": {
+          "AboutWindow.dll": {}
+        }
+      },
+      "Ch13CardLib/1.0.0": {
+        "runtime": {
+          "Ch13CardLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AboutWindow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ch13CardLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

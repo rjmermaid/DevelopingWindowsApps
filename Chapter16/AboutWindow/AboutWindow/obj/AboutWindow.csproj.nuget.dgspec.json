@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\AboutWindow\\AboutWindow\\AboutWindow.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\AboutWindow\\AboutWindow\\AboutWindow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\AboutWindow\\AboutWindow\\AboutWindow.csproj",
+        "projectName": "AboutWindow",
+        "projectPath": "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\AboutWindow\\AboutWindow\\AboutWindow.csproj",
+        "packagesPath": "C:\\Users\\Daniyar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\AboutWindow\\AboutWindow\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Daniyar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\Ch13CardLib\\Ch13CardLib.csproj": {
+                "projectPath": "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\Ch13CardLib\\Ch13CardLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\Ch13CardLib\\Ch13CardLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\Ch13CardLib\\Ch13CardLib.csproj",
+        "projectName": "Ch13CardLib",
+        "projectPath": "C:\\Users\\Daniyar\\Documents\\GitHub\\DevelopingWindowsApps\\Chapter16\\Ch13CardLib\\Ch13CardLib.csproj"
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    }
+  }
+}

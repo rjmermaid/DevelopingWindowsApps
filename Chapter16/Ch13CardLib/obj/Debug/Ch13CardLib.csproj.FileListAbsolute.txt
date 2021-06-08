@@ -1,0 +1,6 @@
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter16\Ch13CardLib\bin\Debug\Ch13CardLib.dll
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter16\Ch13CardLib\bin\Debug\Ch13CardLib.pdb
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter16\Ch13CardLib\obj\Debug\Ch13CardLib.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter16\Ch13CardLib\obj\Debug\Ch13CardLib.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter16\Ch13CardLib\obj\Debug\Ch13CardLib.dll
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\Chapter16\Ch13CardLib\obj\Debug\Ch13CardLib.pdb

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="About.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CardControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CardsInHandControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GameClient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GameDecksControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Options.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StartGame.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CardControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CardsInHandControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GameClient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GameDecksControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Options.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StartGame.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

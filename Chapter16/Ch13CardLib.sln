@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch13CardLib", "Ch13CardLib\Ch13CardLib.csproj", "{4BE3860C-7006-4765-B605-9EB954F8230B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch13CardClient", "Ch13CardClient\Ch13CardClient.csproj", "{10877561-1381-4EBF-B381-521BFE597CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10877561-1381-4EBF-B381-521BFE597CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10877561-1381-4EBF-B381-521BFE597CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10877561-1381-4EBF-B381-521BFE597CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10877561-1381-4EBF-B381-521BFE597CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE3860C-7006-4765-B605-9EB954F8230B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE3860C-7006-4765-B605-9EB954F8230B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE3860C-7006-4765-B605-9EB954F8230B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE3860C-7006-4765-B605-9EB954F8230B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
