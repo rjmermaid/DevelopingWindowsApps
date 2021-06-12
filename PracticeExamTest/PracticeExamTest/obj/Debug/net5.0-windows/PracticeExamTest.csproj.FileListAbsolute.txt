@@ -1,0 +1,9 @@
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\PracticeExamTest.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\About.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\ExportStudent.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\NewStudent.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\SearchStudent.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\PracticeExamTest_MarkupCompile.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\PracticeExamTest\PracticeExamTest\obj\Debug\net5.0-windows\PracticeExamTest_MarkupCompile.lref

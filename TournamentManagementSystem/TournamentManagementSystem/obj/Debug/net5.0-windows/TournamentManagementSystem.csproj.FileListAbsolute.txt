@@ -1,0 +1,5 @@
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\TournamentManagementSystem\TournamentManagementSystem\obj\Debug\net5.0-windows\TournamentManagementSystem.csprojAssemblyReference.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\TournamentManagementSystem\TournamentManagementSystem\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\TournamentManagementSystem\TournamentManagementSystem\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\TournamentManagementSystem\TournamentManagementSystem\obj\Debug\net5.0-windows\TournamentManagementSystem_MarkupCompile.cache
+C:\Users\Daniyar\Documents\GitHub\DevelopingWindowsApps\TournamentManagementSystem\TournamentManagementSystem\obj\Debug\net5.0-windows\TournamentManagementSystem_MarkupCompile.lref
