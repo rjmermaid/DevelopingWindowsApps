@@ -1,0 +1,16 @@
+﻿body {
+    color: orange;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+    font-size: 26px;
+}
+
+.special {
+    color: black;
+    font-size: 16px;
+}
