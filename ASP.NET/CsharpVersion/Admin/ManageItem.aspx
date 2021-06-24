@@ -1,31 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ManageItem.aspx.cs" Inherits="CsharpVersion.Admin.ManageItem" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <style>
-         .dataentry input
-         {
-             width: 250px;
-             margin-left: 20px;
-             margin-top: 15px;
-         }
-         .dataentry textarea
-         {
-             width: 250px;
-             margin-left: 20px;
-             margin-top: 15px;
-         }
-         .dataentry label
-         {
-             width: 75px;
-             margin-left: 20px;
-             margin-top: 15px;
-         }
-         #fuPicture 
-         {
-             margin-top: -20px;
-             margin-left: 120px;
-         }
-    </style>
-    <div style="margin-top:100px;" >
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ManageItem.aspx.cs" Inherits="CsharpVersion.Admin.ManageItem" MetaTagDescription="Manage the items that are available to be checked out from the library" MetaTagKeywords="Tools, Lending Library, Manage Items, actual useful keywords here" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <div>
         <div class="dataentry">
             <asp:Label runat="server" Text="Name" AssociatedControlID="tbName" />
             <asp:TextBox runat="server" ID="tbName" />
