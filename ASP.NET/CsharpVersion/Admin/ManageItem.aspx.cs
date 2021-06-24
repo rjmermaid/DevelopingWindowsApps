@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CsharpVersion;
 
 namespace CsharpVersion.Admin
 {
-    public partial class ManageItem : System.Web.UI.Page
+    public partial class ManageItem : WebFormsBaseClass
     {
         protected void Page_Load(object sender, EventArgs e)
         {

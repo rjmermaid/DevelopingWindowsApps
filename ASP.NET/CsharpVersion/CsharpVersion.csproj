@@ -125,11 +125,13 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Admin\ManageItem.aspx" />
+    <Content Include="Admin\OrderList.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\RentMyWrox.css" />
     <Content Include="Content\Site.css" />
     <Content Include="css\main.css" />
     <Content Include="css\styles.css" />
@@ -191,6 +193,13 @@
     </Compile>
     <Compile Include="Admin\ManageItem.aspx.designer.cs">
       <DependentUpon>ManageItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -266,12 +275,22 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormsBaseClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -288,6 +307,8 @@
     <Content Include="Views\web.config" />
     <Content Include="Views\UserDemographics\Index.cshtml" />
     <Content Include="Views\UserDemographics\Manage.cshtml" />
+    <Content Include="Site1.Master" />
+    <Content Include="Views\Shared\_MVCLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
