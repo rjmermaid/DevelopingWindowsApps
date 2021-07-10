@@ -1,0 +1,25 @@
+﻿@model List<Item>
+@{
+    ViewData["Title"] = "Items";
+}
+
+<h1>Items</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-3">
+                <img src="@item.ImageUrl" class="rounded img-fluid img-thumbnail" />
+                @item.Name for @item.Price.ToString("C")
+                <br />
+                <a asp-controller="ShoppingCart"
+                   asp-action="AddToCart"
+                   asp-route-id="@item.ItemId"
+                   class="btn btn-primary">
+                    Add To Cart
+                </a>
+            </div>
+        }
+    </div>
+</div>

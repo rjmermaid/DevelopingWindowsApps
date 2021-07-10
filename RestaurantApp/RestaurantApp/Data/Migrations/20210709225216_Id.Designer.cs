@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RestaurantApp.Data;
 
 namespace RestaurantApp.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210709225216_Id")]
+    partial class Id
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,12 +26,12 @@ namespace RestaurantApp.Data.Migrations
                     b.Property<int>("ShoppingCartItemsItemId")
                         .HasColumnType("int");
 
-                    b.Property<int>("shoppingCartsShoppingCartId")
+                    b.Property<int>("shoppingCartsId")
                         .HasColumnType("int");
 
-                    b.HasKey("ShoppingCartItemsItemId", "shoppingCartsShoppingCartId");
+                    b.HasKey("ShoppingCartItemsItemId", "shoppingCartsId");
 
-                    b.HasIndex("shoppingCartsShoppingCartId");
+                    b.HasIndex("shoppingCartsId");
 
                     b.ToTable("ItemShoppingCart");
                 });
@@ -386,7 +388,7 @@ namespace RestaurantApp.Data.Migrations
 
             modelBuilder.Entity("RestaurantApp.Models.ShoppingCart", b =>
                 {
-                    b.Property<int>("ShoppingCartId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -394,16 +396,16 @@ namespace RestaurantApp.Data.Migrations
                     b.Property<int>("AspNetUserId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("Created")
+                    b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime?>("Purchased")
+                    b.Property<DateTime>("Purchased")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ShoppingCartId");
+                    b.HasKey("Id");
 
                     b.ToTable("ShoppingCarts");
                 });
@@ -418,7 +420,7 @@ namespace RestaurantApp.Data.Migrations
 
                     b.HasOne("RestaurantApp.Models.ShoppingCart", null)
                         .WithMany()
-                        .HasForeignKey("shoppingCartsShoppingCartId")
+                        .HasForeignKey("shoppingCartsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
