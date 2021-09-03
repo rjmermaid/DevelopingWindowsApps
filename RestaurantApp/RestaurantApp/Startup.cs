@@ -35,6 +35,9 @@ namespace RestaurantApp
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddSession();
+
             services.AddControllersWithViews();
         }
 
@@ -59,6 +62,8 @@ namespace RestaurantApp
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {

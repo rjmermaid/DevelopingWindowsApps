@@ -52,7 +52,7 @@ namespace RestaurantApp.Data.Migrations
                 columns: table => new
                 {
                     ShoppingCartId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    AspNetUserId = table.Column<int>(type: "int", nullable: false),
+                    CustomerId = table.Column<int>(type: "int", nullable: false),
                     Created = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Purchased = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false)

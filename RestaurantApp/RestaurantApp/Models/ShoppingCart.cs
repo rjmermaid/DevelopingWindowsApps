@@ -14,8 +14,7 @@ namespace RestaurantApp.Models
     {
         [Key]
         public int ShoppingCartId { get; set; }
-        [ForeignKey("AspNetUsers")]
-        public int AspNetUserId { get; set; }
+        public string CustomerId { get; set; }
         public List<Item> ShoppingCartItems { get; set; }
         public DateTime? Created { get; set; }
         public DateTime? Purchased { get; set; }

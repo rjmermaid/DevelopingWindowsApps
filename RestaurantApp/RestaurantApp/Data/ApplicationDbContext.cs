@@ -18,5 +18,11 @@ namespace RestaurantApp.Data
             : base(options)
         {
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<ShoppingCart>().HasMany(s => s.ShoppingCartItems).WithMany(i => i.shoppingCarts);
+        } 
     }
 }

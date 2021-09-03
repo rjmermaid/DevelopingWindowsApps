@@ -391,7 +391,7 @@ namespace RestaurantApp.Data.Migrations
                     b.Property<string>("ShoppingCartId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int>("AspNetUserId")
+                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Created")

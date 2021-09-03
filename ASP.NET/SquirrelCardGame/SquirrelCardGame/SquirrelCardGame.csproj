@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\10C.png" />
+    <None Include="wwwroot\Images\10D.png" />
+    <None Include="wwwroot\Images\10H.png" />
+    <None Include="wwwroot\Images\10S.png" />
+    <None Include="wwwroot\Images\373b16be-971c-452a-9bf4-67903dcff1c0.jpg" />
+    <None Include="wwwroot\Images\4b106e30-bc6f-4db9-b1fd-ecab944431d0.jpg" />
+    <None Include="wwwroot\Images\5c4baa75-3bc2-4b21-aa06-aba8cf502652.jpg" />
+    <None Include="wwwroot\Images\6955506166_295d8da188_b.jpg" />
+    <None Include="wwwroot\Images\6C.png" />
+    <None Include="wwwroot\Images\6D.png" />
+    <None Include="wwwroot\Images\6H.png" />
+    <None Include="wwwroot\Images\6S.png" />
+    <None Include="wwwroot\Images\72753691-29a4-4ef9-a2a4-018344fa7183.jpg" />
+    <None Include="wwwroot\Images\7C.png" />
+    <None Include="wwwroot\Images\7D.png" />
+    <None Include="wwwroot\Images\7H.png" />
+    <None Include="wwwroot\Images\7S.png" />
+    <None Include="wwwroot\Images\8C.png" />
+    <None Include="wwwroot\Images\8D.png" />
+    <None Include="wwwroot\Images\8H.png" />
+    <None Include="wwwroot\Images\8S.png" />
+    <None Include="wwwroot\Images\9C.png" />
+    <None Include="wwwroot\Images\9D.png" />
+    <None Include="wwwroot\Images\9H.png" />
+    <None Include="wwwroot\Images\9S.png" />
+    <None Include="wwwroot\Images\AC.png" />
+    <None Include="wwwroot\Images\AD.png" />
+    <None Include="wwwroot\Images\AH.png" />
+    <None Include="wwwroot\Images\AS.png" />
+    <None Include="wwwroot\Images\b1fv.png" />
+    <None Include="wwwroot\Images\de570d6d-1571-443f-91df-48d384e7d8b6.jpg" />
+    <None Include="wwwroot\Images\file-20200512-82357-11i5o76.jpg" />
+    <None Include="wwwroot\Images\JC.png" />
+    <None Include="wwwroot\Images\JD.png" />
+    <None Include="wwwroot\Images\JH.png" />
+    <None Include="wwwroot\Images\JS.png" />
+    <None Include="wwwroot\Images\KC.png" />
+    <None Include="wwwroot\Images\KD.png" />
+    <None Include="wwwroot\Images\KH.png" />
+    <None Include="wwwroot\Images\KS.png" />
+    <None Include="wwwroot\Images\QC.png" />
+    <None Include="wwwroot\Images\QD.png" />
+    <None Include="wwwroot\Images\QH.png" />
+    <None Include="wwwroot\Images\QS.png" />
+  </ItemGroup>
+
+</Project>

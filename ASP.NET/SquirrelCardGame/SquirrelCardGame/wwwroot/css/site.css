@@ -1,0 +1,335 @@
+﻿.cart {
+    position: absolute;
+    display: inline-block;
+    left: -1.9375rem;
+    top: -2.75rem;
+    width: 3.875rem;
+    height: 5.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+}
+.cart .back {
+    position: absolute;
+    background-image: url(/Images/b1fv.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.inner-page {
+    background-color: #00a000;
+    border: solid 3px #fff;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px;
+    box-shadow: #333 0 0 7px;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+.inner-page *{
+    position: absolute;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    padding: 5px 10px;
+}
+
+ol, p, ul {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+element.style {
+    height: 600px;
+}
+
+
+.face-small {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#bottom-player-bubble {
+    background-image: url(https://d3hp2os08tb528.cloudfront.net/shared/images/svg/speech-left.svg);
+    bottom: 33px;
+    left: 40px;
+}
+
+.avatar div {
+    border: solid 0 #fff;
+        border-top-color: rgb(255, 255, 255);
+        border-top-style: solid;
+        border-top-width: 0px;
+        border-right-color: rgb(255, 255, 255);
+        border-right-style: solid;
+        border-right-width: 0px;
+        border-bottom-color: rgb(255, 255, 255);
+        border-bottom-style: solid;
+        border-bottom-width: 0px;
+        border-left-color: rgb(255, 255, 255);
+        border-left-style: solid;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    cursor: pointer;
+}
+
+.bubble {
+    position: absolute;
+    width: 130px;
+    height: 97px;
+    display: none;
+    z-index: 500001;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 114px 83px !important;
+    pointer-events: none;
+}
+#left-player {
+    top: 50%;
+    left: 2px;
+}
+
+#right-player {
+    top: 50%;
+    right: 2px;
+}
+
+#left-player, #right-player {
+    margin-top: -50px
+}
+
+#top-player {
+    top: 2px;
+    left: 50%
+}
+
+#bottom-player {
+    bottom: 2px;
+    left: 50%
+}
+
+#bottom-player, #top-player {
+    margin-left: -25px
+}
+
+
+
+.face-top-player {
+    background-image: url('/Images/4b106e30-bc6f-4db9-b1fd-ecab944431d0.jpg');
+}
+
+.face-large, .face-medium, .face-small, .face-thumb {
+    background-position: center !important;
+    background-repeat: no-repeat;
+}
+
+.dealer .face-small:after {
+    background: url(https://d3hp2os08tb528.cloudfront.net/shared/images/svg/dealerhat.svg) !important;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 66% !important;
+    content: "";
+    z-index: 50000;
+    top: -36% !important;
+    left: 0 !important;
+    position: absolute;
+}
+
+.face-left-player {
+    background-image: url('/Images/5c4baa75-3bc2-4b21-aa06-aba8cf502652.jpg');
+}
+
+.face-right-player {
+    background-image: url('/Images/373b16be-971c-452a-9bf4-67903dcff1c0.jpg');
+}
+
+button {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    color: #333 !important;
+    font-family: Arial,sans-serif;
+    font-weight: 400 !important;
+    font-size: 14px;
+    padding: 3px 9px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #555 !important;
+    background: #ddd;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#ddd));
+    background: -webkit-linear-gradient(#fff,#ddd);
+    background: -moz-linear-gradient(#fff,#ddd);
+    background: -o-linear-gradient(#fff,#ddd);
+    background: linear-gradient(#fff,#ddd);
+    -webkit-touch-callout: none;
+    outline: 0
+}
+
+.card .facedown {
+    background-image: url('/Images/b1fv.png');
+}
+
+.facedown, .faceup {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#draper-inline-video {
+    display: none;
+    position: absolute;
+    background: #000;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    z-index: 99999999999;
+}
+
+
+
+
+h1 {
+    margin-top: 10px;
+    color: green;
+    font-size: 50px;
+    text-shadow: #444 1px 1px 2px;
+    font-family: Slackey,"Lucida Grande","Lucida Sans Unicode",Tahoma,Geneva,Arial,Verdana,sans-serif
+}
+
+#wrapper {
+    width: 880px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+#menucontainer {
+    margin-bottom: 3px;
+    margin-top: -10px
+}
+
+
+
+.avatar {
+    position: absolute;
+    height: 70px
+}
+.avatar small {
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 13px;
+    min-width: 100%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+#bottom-player small, #top-player small {
+    width: 210%;
+    left: -55%
+}
+
+#right-player small {
+    right: 0
+}
+
+#left-player small, #right-player small {
+    max-width: 75px
+}
+.face-thumb {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block
+}
+
+.face-small {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-repeat: no-repeat
+}
+
+.face-medium {
+    width: 80px;
+    height: 80px
+}
+
+.face-large {
+    width: 120px;
+    height: 120px
+}
+
+
+
+
+
+
+
+#title {
+    position: relative;
+    padding: 0
+}
+.card {
+    width: 69px;
+    height: 94px;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation
+}
+
+.facedown, .faceup {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.faceup {
+    display: none
+}
+
+
+
+
+
